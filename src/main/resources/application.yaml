@@ -1,0 +1,15 @@
+#Sun Oct 08 16:18:07 GMT 2023
+micronaut :
+  application :
+    name : sapatiPay
+  server :
+    port : 8082
+datasources:
+  default :
+    url : jdbc:postgresql://localhost:5432/postgres
+    db-type : postgres
+    dialect : POSTGRES
+    schema-generate : CREATE_DROP
+    username : postgres
+    password : shiva
+
